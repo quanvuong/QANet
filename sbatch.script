@@ -10,7 +10,7 @@
 #SBATCH --nodelist=gpu6
 #SBATCH --qos=h480
 
-conda activate /gpfsnyu/scratch/qhv200/conda_envs/tf1.8_py3.6
+source activate /gpfsnyu/scratch/qhv200/conda_envs/tf1.8_py3.6
 
 cd /gpfsnyu/scratch/qhv200/nlp/QANet
 
