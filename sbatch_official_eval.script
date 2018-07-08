@@ -16,4 +16,4 @@ source activate /gpfsnyu/scratch/qhv200/conda_envs/tf1.8_py3.6
 
 cd /gpfsnyu/scratch/qhv200/nlp/QANet
 
-MPLBACKEND=Agg python evaluate-v1.1.py ./data/squad/dev-v1.1.json train/FRC/answer/answer.json
+MPLBACKEND=Agg python evaluate-v1.1.py ./datasets/squad/dev-v1.1.json train/FRC/answer/answer.json
